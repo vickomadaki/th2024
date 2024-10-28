@@ -1,0 +1,30 @@
+:root {
+    --bg: #13293d;
+    --primary: #3E92CC;
+    --secundary: #2A628F;
+    --tertiary: #16324f;
+    --font: "PT Serif", serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--primary);  
+    font-family: var(--font);   
+}
+
+.barra {
+    width: 100%;
+    box-shadow: 2px,4px, var(--secundary);
+    padding: 1.5rem;
+    position: fixed;
+    text-align: center;
+}
+.h1_barra{
+    font-size: 4rem;
+    font-family: var(--font);
+}
